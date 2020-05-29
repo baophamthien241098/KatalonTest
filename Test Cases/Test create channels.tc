@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test create channels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c271494d-93c3-41c4-b239-e6de381ebc07</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26453978-e827-481f-8bce-ee7de99a4770</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a0871bb1-5d73-47d0-9727-0cf4af7bb3d1</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>252dd140-0b3b-4f03-9edf-8c4cb1ceeac0</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>
