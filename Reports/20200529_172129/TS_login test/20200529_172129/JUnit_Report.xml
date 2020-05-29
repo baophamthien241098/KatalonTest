@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_login test" time="69.209" tests="5" failures="0" errors="0">
+   <testsuite name="TS_login test" tests="5" failures="0" errors="0" time="69.209" timestamp="2020-05-29 17:21:30" hostname="Admin - host.docker.internal" id="Test Suites/TS_login test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\KatalonTest\\Reports\\20200529_172129\\TS_login test\\20200529_172129"/>
+         <property name="logFiles" value="E:\\katalon\\KatalonTest\\Reports\\20200529_172129\\TS_login test\\20200529_172129\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="6f9d2f21f0dba7f6e55f384119684c0e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC_Verify Login For All Cases" time="14.84" classname="Test Cases/Login/TC_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2020-05-29 17:21:31 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Verify Login For All Cases: Test Cases/Login/TC_Verify Login For All Cases
+
+2020-05-29 17:21:31 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2020-05-29 17:21:31 - [TEST_STEP][PASSED] - openBrowser("https://hw02-mattermast-webapp-master.herokuapp.com/login"): Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:21:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 17:21:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 17:21:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:21:39 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2020-05-29 17:21:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Test login"), ["var_user":var_email, "var_password":var_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:21:39 - [TEST_CASE][PASSED] - Test Cases/Login/Test login: Test Cases/Login/Test login
+
+2020-05-29 17:21:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), var_user): Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:21:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), var_password): Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:21:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:21:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:21:44 - [TEST_STEP][PASSED] - switch (var_statusExpectedResult.toString()): null
+
+2020-05-29 17:21:44 - [TEST_STEP][PASSED] - case "email is empty":: null
+
+2020-05-29 17:21:44 - [TEST_STEP][PASSED] - errorMess = getText(findTestObject("Object Repository/Page_Mattermost/Error Status")): Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Please enter your email or username'
+
+2020-05-29 17:21:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Please enter your email or username'
+
+2020-05-29 17:21:45 - [TEST_STEP][PASSED] - verifyEqual(errorMess.contains("Please enter your email or username"), true): Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:21:45 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:21:45 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 17:21:45 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2020-05-29 17:21:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 17:21:46 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-29 17:21:46 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_Verify Login For All Cases" time="13.246" classname="Test Cases/Login/TC_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2020-05-29 17:21:46 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Verify Login For All Cases: Test Cases/Login/TC_Verify Login For All Cases
+
+2020-05-29 17:21:46 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2020-05-29 17:21:46 - [TEST_STEP][PASSED] - openBrowser("https://hw02-mattermast-webapp-master.herokuapp.com/login"): Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:21:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 17:21:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:21:52 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2020-05-29 17:21:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Test login"), ["var_user":var_email, "var_password":var_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:21:52 - [TEST_CASE][PASSED] - Test Cases/Login/Test login: Test Cases/Login/Test login
+
+2020-05-29 17:21:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), var_user): Text 'baophamthien241098@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:21:57 - [MESSAGE][PASSED] - Text 'baophamthien241098@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:21:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), var_password): Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:21:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:21:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:21:58 - [TEST_STEP][PASSED] - switch (var_statusExpectedResult.toString()): null
+
+2020-05-29 17:21:58 - [TEST_STEP][PASSED] - case "password is empty":: null
+
+2020-05-29 17:21:58 - [TEST_STEP][PASSED] - errorMess = getText(findTestObject("Object Repository/Page_Mattermost/Error Status")): Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Please enter your password'
+
+2020-05-29 17:21:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Please enter your password'
+
+2020-05-29 17:21:58 - [TEST_STEP][PASSED] - verifyEqual(errorMess.contains("Please enter your password"), true): Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:21:58 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:21:58 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 17:21:58 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2020-05-29 17:21:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 17:21:59 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-29 17:21:59 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_Verify Login For All Cases" time="12.917" classname="Test Cases/Login/TC_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2020-05-29 17:21:59 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Verify Login For All Cases: Test Cases/Login/TC_Verify Login For All Cases
+
+2020-05-29 17:21:59 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2020-05-29 17:21:59 - [TEST_STEP][PASSED] - openBrowser("https://hw02-mattermast-webapp-master.herokuapp.com/login"): Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:21:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 17:22:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:22:05 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2020-05-29 17:22:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Test login"), ["var_user":var_email, "var_password":var_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:22:05 - [TEST_CASE][PASSED] - Test Cases/Login/Test login: Test Cases/Login/Test login
+
+2020-05-29 17:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), var_user): Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:22:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:22:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), var_password): Text 'asbcd11782' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:22:10 - [MESSAGE][PASSED] - Text 'asbcd11782' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:22:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:22:11 - [TEST_STEP][PASSED] - switch (var_statusExpectedResult.toString()): null
+
+2020-05-29 17:22:11 - [TEST_STEP][PASSED] - case "email is empty":: null
+
+2020-05-29 17:22:11 - [TEST_STEP][PASSED] - errorMess = getText(findTestObject("Object Repository/Page_Mattermost/Error Status")): Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Please enter your email or username'
+
+2020-05-29 17:22:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Please enter your email or username'
+
+2020-05-29 17:22:11 - [TEST_STEP][PASSED] - verifyEqual(errorMess.contains("Please enter your email or username"), true): Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:22:11 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:22:11 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 17:22:11 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2020-05-29 17:22:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 17:22:12 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-29 17:22:12 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_Verify Login For All Cases" time="14.733" classname="Test Cases/Login/TC_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2020-05-29 17:22:12 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Verify Login For All Cases: Test Cases/Login/TC_Verify Login For All Cases
+
+2020-05-29 17:22:12 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2020-05-29 17:22:12 - [TEST_STEP][PASSED] - openBrowser("https://hw02-mattermast-webapp-master.herokuapp.com/login"): Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:22:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 17:22:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:22:18 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2020-05-29 17:22:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Test login"), ["var_user":var_email, "var_password":var_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:22:18 - [TEST_CASE][PASSED] - Test Cases/Login/Test login: Test Cases/Login/Test login
+
+2020-05-29 17:22:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), var_user): Text 'baophamthien241098@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:22:24 - [MESSAGE][PASSED] - Text 'baophamthien241098@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:22:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), var_password): Text 'matkhausairoi' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:22:24 - [MESSAGE][PASSED] - Text 'matkhausairoi' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:22:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:22:25 - [TEST_STEP][PASSED] - switch (var_statusExpectedResult.toString()): null
+
+2020-05-29 17:22:25 - [TEST_STEP][PASSED] - case "valid email and/or password":: null
+
+2020-05-29 17:22:25 - [TEST_STEP][PASSED] - errorMess = getText(findTestObject("Object Repository/Page_Mattermost/Error Status")): Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Enter a valid email or username and/or password.'
+
+2020-05-29 17:22:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Mattermost/Error Status' is: 'Enter a valid email or username and/or password.'
+
+2020-05-29 17:22:26 - [TEST_STEP][PASSED] - verifyEqual(errorMess.contains("Enter a valid email or username and/or password."), true): Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:22:26 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2020-05-29 17:22:26 - [TEST_STEP][PASSED] - break: null
+
+2020-05-29 17:22:26 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2020-05-29 17:22:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 17:22:26 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-29 17:22:26 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC_Verify Login For All Cases" time="13.118" classname="Test Cases/Login/TC_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2020-05-29 17:22:27 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Verify Login For All Cases: Test Cases/Login/TC_Verify Login For All Cases
+
+2020-05-29 17:22:27 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2020-05-29 17:22:27 - [TEST_STEP][PASSED] - openBrowser("https://hw02-mattermast-webapp-master.herokuapp.com/login"): Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:22:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 17:22:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:22:33 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2020-05-29 17:22:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Test login"), ["var_user":var_email, "var_password":var_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:22:33 - [TEST_CASE][PASSED] - Test Cases/Login/Test login: Test Cases/Login/Test login
+
+2020-05-29 17:22:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), var_user): Text 'baophamthien241098@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:22:38 - [MESSAGE][PASSED] - Text 'baophamthien241098@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), var_password): Text 'asbcd11782' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:22:38 - [MESSAGE][PASSED] - Text 'asbcd11782' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:22:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:22:39 - [TEST_STEP][PASSED] - switch (var_statusExpectedResult.toString()): null
+
+2020-05-29 17:22:39 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2020-05-29 17:22:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 17:22:40 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-29 17:22:40 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 17:21:30 - [TEST_SUITE][PASSED] - TS_login test: Test Cases/Login/TC_Verify Login For All Cases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

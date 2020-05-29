@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_login test" time="16.543" tests="1" failures="0" errors="0">
+   <testsuite name="TS_login test" tests="1" failures="0" errors="0" time="16.543" timestamp="2020-05-29 17:15:39" hostname="Admin - host.docker.internal" id="Test Suites/TS_login test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\katalon\\KatalonTest\\Reports\\20200529_171537\\TS_login test\\20200529_171537"/>
+         <property name="logFiles" value="E:\\katalon\\KatalonTest\\Reports\\20200529_171537\\TS_login test\\20200529_171537\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.1.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="6ac1906937cc46b3723ebe9a8c27bc66"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC_Verify Login For All Cases" time="16.241" classname="Test Cases/Login/TC_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2020-05-29 17:15:39 - [TEST_CASE][PASSED] - Test Cases/Login/TC_Verify Login For All Cases: Test Cases/Login/TC_Verify Login For All Cases
+
+2020-05-29 17:15:39 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2020-05-29 17:15:39 - [TEST_STEP][PASSED] - openBrowser("https://hw02-mattermast-webapp-master.herokuapp.com/login"): Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:15:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-29 17:15:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-05-29 17:15:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hw02-mattermast-webapp-master.herokuapp.com/login'
+
+2020-05-29 17:15:47 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2020-05-29 17:15:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Test login"), ["var_user":var_email, "var_password":var_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:15:47 - [TEST_CASE][PASSED] - Test Cases/Login/Test login: Test Cases/Login/Test login
+
+2020-05-29 17:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), var_user): Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:15:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2020-05-29 17:15:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), var_password): Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:15:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2020-05-29 17:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-29 17:15:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Test login' successfully
+
+2020-05-29 17:15:54 - [TEST_STEP][PASSED] - switch (var_statusExpectedResult.toString()): null
+
+2020-05-29 17:15:54 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2020-05-29 17:15:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-29 17:15:55 - [MESSAGE][PASSED] - Browser is closed
+
+2020-05-29 17:15:55 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 17:15:39 - [TEST_SUITE][PASSED] - TS_login test: Test Cases/Login/TC_Verify Login For All Cases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
