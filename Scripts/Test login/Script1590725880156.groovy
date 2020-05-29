@@ -14,17 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://hw02-mattermast-webapp-master.herokuapp.com/login')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'), 'baophamthien241098@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'), 'asbcd11782')
+WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
 
-WebUI.navigateToUrl('https://hw02-mattermast-webapp-master.herokuapp.com/')
+//kiểm tra đã vào được login thành công vào được honmpage chưa
+WebUI.click(findTestObject('Object Repository/Home_page Mattermost/span'))
+WebUI.click(findTestObject('Object Repository/Home_page Mattermost/span'))
 
-WebUI.setText(findTestObject('null'), 'baophamthien241098@gmail.com')
+Thread.sleep(2000)
 
-WebUI.setEncryptedText(findTestObject('null'), 
-    'VJcwp4XFz68TnimayWqhOA==')
-
-WebUI.sendKeys(findTestObject('null'), Keys.chord(
-        Keys.ENTER))
-
+WebUI.closeBrowser()
