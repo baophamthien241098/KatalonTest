@@ -41,7 +41,7 @@ switch (var_statusExpectedResult.toString()) {
         WebUI.verifyEqual(errorMess.contains('Please enter your password'), true)
 
         break
-	case 'valid email and/or password':
+	case 'invalid email and/or password':
 		'Verify when expected test case login  with username and/or password wrong'
 		def errorMess = WebUI.getText(findTestObject('Object Repository/Page_Mattermost/Error Status'))
 
@@ -49,7 +49,6 @@ switch (var_statusExpectedResult.toString()) {
 
 		break
 }
-
 
 
 @com.kms.katalon.core.annotation.TearDown
