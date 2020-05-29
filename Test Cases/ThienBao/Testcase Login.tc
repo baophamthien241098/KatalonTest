@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Testcase Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6629f98-bc71-4ffd-8806-211fa2b70c96</testCaseGuid>
+   <variable>
+      <defaultValue>'baophamthien241098@gmail.com'</defaultValue>
+      <description></description>
+      <id>d1397d19-946f-4de2-876e-a9483dc9de18</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'asbcd11782'</defaultValue>
+      <description></description>
+      <id>702f6529-9a1b-4d08-912f-db57ed759011</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

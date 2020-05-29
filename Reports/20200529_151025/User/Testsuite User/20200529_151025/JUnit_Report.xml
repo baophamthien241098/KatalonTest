@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testsuite User" time="4.065" tests="1" failures="0" errors="0">
+   <testsuite name="Testsuite User" tests="1" failures="0" errors="0" time="4.065" timestamp="2020-05-29 15:10:32" hostname="Katamina - DESKTOP-7F1C33B" id="Test Suites/User/Testsuite User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\KatalonTest\\Reports\\20200529_151025\\User\\Testsuite User\\20200529_151025"/>
+         <property name="logFiles" value="E:\\KatalonTest\\Reports\\20200529_151025\\User\\Testsuite User\\20200529_151025\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Katamina - DESKTOP-7F1C33B"/>
+         <property name="hostAddress" value="169.254.57.70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Testcase Login" time="3.59" classname="Test Cases/Testcase Login" status="PASSED">
+         <system-out><![CDATA[2020-05-29 15:10:32 - [TEST_CASE][PASSED] - Test Cases/Testcase Login: Test Cases/Testcase Login
+
+2020-05-29 15:10:33 - [TEST_STEP][PASSED] - request = findTestObject("Object Repository/User/LoginApi"): null
+
+2020-05-29 15:10:33 - [TEST_STEP][PASSED] - json = new groovy.json.JsonBuilder(): null
+
+2020-05-29 15:10:33 - [TEST_STEP][PASSED] - root = json.call(["login_id":username, "password":pass]): null
+
+2020-05-29 15:10:33 - [TEST_STEP][PASSED] - println(json.toString()): null
+
+2020-05-29 15:10:33 - [TEST_STEP][PASSED] - try: Verify response status code successfully
+
+2020-05-29 15:10:33 - [TEST_STEP][PASSED] - request.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(json.toString(), UTF-8, application/json)): null
+
+2020-05-29 15:10:33 - [TEST_STEP][PASSED] - response = sendRequest(request): Send request successfully
+
+2020-05-29 15:10:35 - [MESSAGE][INFO] - HAR: E:\KatalonTest\Reports\20200529_151025\User\Testsuite User\20200529_151025\requests\main\0.har
+
+2020-05-29 15:10:36 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-29 15:10:36 - [TEST_STEP][PASSED] - println(response): null
+
+2020-05-29 15:10:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-05-29 15:10:36 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 15:10:32 - [TEST_SUITE][PASSED] - Testsuite User: Test Cases/Testcase Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

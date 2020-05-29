@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testsuite User" time="2.848" tests="5" failures="0" errors="5">
+   <testsuite name="Testsuite User" tests="5" failures="0" errors="5" time="2.848" timestamp="2020-05-29 16:13:42" hostname="Katamina - DESKTOP-7F1C33B" id="Test Suites/User/Testsuite User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\KatalonTest\\Reports\\20200529_161335\\User\\Testsuite User\\20200529_161335"/>
+         <property name="logFiles" value="E:\\KatalonTest\\Reports\\20200529_161335\\User\\Testsuite User\\20200529_161335\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Katamina - DESKTOP-7F1C33B"/>
+         <property name="hostAddress" value="169.254.57.70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Testcase Sign up" time="0.56" classname="Test Cases/Testcase Sign up" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),&quot;UTF-8&quot;, &quot;application/json&quot;))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)
+"/>
+         <system-out><![CDATA[2020-05-29 16:13:42 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:13:42 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase Sign up" time="0.272" classname="Test Cases/Testcase Sign up" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),&quot;UTF-8&quot;, &quot;application/json&quot;))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)
+"/>
+         <system-out><![CDATA[2020-05-29 16:13:43 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:13:43 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase Sign up" time="0.351" classname="Test Cases/Testcase Sign up" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),&quot;UTF-8&quot;, &quot;application/json&quot;))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)
+"/>
+         <system-out><![CDATA[2020-05-29 16:13:43 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:13:43 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase Sign up" time="0.305" classname="Test Cases/Testcase Sign up" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),&quot;UTF-8&quot;, &quot;application/json&quot;))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)
+"/>
+         <system-out><![CDATA[2020-05-29 16:13:44 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:13:44 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase Sign up" time="0.268" classname="Test Cases/Testcase Sign up" status="ERROR">
+         <error type="ERROR" message="Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),&quot;UTF-8&quot;, &quot;application/json&quot;))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)
+"/>
+         <system-out><![CDATA[2020-05-29 16:13:44 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-out>
+         <system-err><![CDATA[2020-05-29 16:13:44 - [TEST_CASE][ERROR] - Test Cases/Testcase Sign up: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 16:13:42 - [TEST_SUITE][ERROR] - Testsuite User: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-out>
+      <system-err><![CDATA[2020-05-29 16:13:42 - [TEST_SUITE][ERROR] - Testsuite User: Test Cases/Testcase Sign up FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)]]></system-err>
+   </testsuite>
+</testsuites>

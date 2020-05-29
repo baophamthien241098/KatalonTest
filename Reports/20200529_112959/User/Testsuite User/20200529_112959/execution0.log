@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-29T11:30:11</date>
+  <millis>1590726611622</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/User/Testsuite User</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Testsuite User</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/User/Testsuite User</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:11</date>
+  <millis>1590726611640</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Katamina - DESKTOP-7F1C33B</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Katamina - DESKTOP-7F1C33B</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:11</date>
+  <millis>1590726611640</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:11</date>
+  <millis>1590726611641</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 169.254.57.70</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">169.254.57.70</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:11</date>
+  <millis>1590726611643</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.5.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.5.2.1</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612234</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Login</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612271</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = asdas</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612293</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = 12312</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612671</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = username</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612681</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = username</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612683</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : b = password</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612684</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : b = password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:12</date>
+  <millis>1590726612685</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;User/LoginApi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616248</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\KatalonTest\\Reports\\20200529_112959\\User\\Testsuite User\\20200529_112959\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">f499b5e5-371c-4c22-bbb8-04281af3fb81</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616372</millis>
+  <sequence>17</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616382</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;User/LoginApi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616384</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(a)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616385</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(a)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616385</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(b)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616385</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(b)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616385</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616476</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616500</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616501</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616502</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616590</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Login</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616597</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = asdasd</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616597</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = 3333</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616647</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = username</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616658</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = username</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616658</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : b = password</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616659</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : b = password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:16</date>
+  <millis>1590726616660</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;User/LoginApi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618711</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\KatalonTest\\Reports\\20200529_112959\\User\\Testsuite User\\20200529_112959\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">65258e9e-30e3-49e4-b35f-f191b16e39aa</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618719</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618720</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;User/LoginApi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618720</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(a)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618720</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(a)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618720</millis>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(b)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618722</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(b)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618722</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618728</millis>
+  <sequence>49</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618728</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618728</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618728</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618747</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Login</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618755</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = 3333</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618780</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = 1111111</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618784</millis>
+  <sequence>57</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = username</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618784</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = username</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618784</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : b = password</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618790</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : b = password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:18</date>
+  <millis>1590726618790</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(\&amp;quot;User/LoginApi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620592</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: E:\\KatalonTest\\Reports\\20200529_112959\\User\\Testsuite User\\20200529_112959\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">401cd8a8-d0a7-4943-b84b-2823078d5bb5</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620596</millis>
+  <sequence>65</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620596</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(\&amp;quot;User/LoginApi\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620598</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(a)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620600</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(a)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620600</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : print(b)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620601</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : print(b)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620606</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">23</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620608</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620608</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620609</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Login</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620611</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:30:20</date>
+  <millis>1590726620795</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/User/Testsuite User</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-29T11:41:57</date>
+  <millis>1590727317899</millis>
+  <sequence>342</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>654</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har3928541824377964902\\requests\\ModalContext\\2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4333e1ea-1768-4c03-ba57-5ca68f3b959f</property>
+</record>
+<record>
+  <date>2020-05-29T11:46:57</date>
+  <millis>1590727617479</millis>
+  <sequence>369</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>455</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:46:57</date>
+  <millis>1590727617483</millis>
+  <sequence>370</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>455</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:52:59</date>
+  <millis>1590727979376</millis>
+  <sequence>519</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>954</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:52:59</date>
+  <millis>1590727979378</millis>
+  <sequence>520</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>954</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:53:51</date>
+  <millis>1590728031323</millis>
+  <sequence>782</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>395</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:53:51</date>
+  <millis>1590728031324</millis>
+  <sequence>783</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>395</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:54:50</date>
+  <millis>1590728090857</millis>
+  <sequence>1045</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>409</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:54:50</date>
+  <millis>1590728090858</millis>
+  <sequence>1046</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>409</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:59:10</date>
+  <millis>1590728350942</millis>
+  <sequence>1331</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>407</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T11:59:10</date>
+  <millis>1590728350958</millis>
+  <sequence>1332</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>407</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T12:00:25</date>
+  <millis>1590728425405</millis>
+  <sequence>1558</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>288</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T12:00:25</date>
+  <millis>1590728425405</millis>
+  <sequence>1559</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>288</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T12:04:37</date>
+  <millis>1590728677235</millis>
+  <sequence>1889</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>102</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T12:04:37</date>
+  <millis>1590728677236</millis>
+  <sequence>1890</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>102</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T12:05:25</date>
+  <millis>1590728725075</millis>
+  <sequence>2170</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1424</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har9083265573056484459\\requests\\ModalContext\\3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">7ece87f3-23b3-44d3-88e7-991c4ccf0321</property>
+</record>
+<record>
+  <date>2020-05-29T14:33:44</date>
+  <millis>1590737624842</millis>
+  <sequence>2171</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1455</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T14:33:44</date>
+  <millis>1590737624857</millis>
+  <sequence>2172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1455</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T14:35:58</date>
+  <millis>1590737758143</millis>
+  <sequence>2438</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1450</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T14:35:58</date>
+  <millis>1590737758143</millis>
+  <sequence>2439</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1450</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T14:37:10</date>
+  <millis>1590737830569</millis>
+  <sequence>2656</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1466</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T14:37:10</date>
+  <millis>1590737830584</millis>
+  <sequence>2657</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1466</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T14:38:14</date>
+  <millis>1590737894732</millis>
+  <sequence>2955</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1598</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har5627526775004534277\\requests\\ModalContext\\4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4a95db4f-c928-43bf-bc67-a11bf17355e4</property>
+</record>
+<record>
+  <date>2020-05-29T15:02:57</date>
+  <millis>1590739377977</millis>
+  <sequence>3044</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1679</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:02:57</date>
+  <millis>1590739377977</millis>
+  <sequence>3045</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1679</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:05:23</date>
+  <millis>1590739523481</millis>
+  <sequence>3343</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1678</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:05:23</date>
+  <millis>1590739523497</millis>
+  <sequence>3344</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1678</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:06:43</date>
+  <millis>1590739603548</millis>
+  <sequence>3735</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1662</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:06:43</date>
+  <millis>1590739603548</millis>
+  <sequence>3736</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1662</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:09:22</date>
+  <millis>1590739762803</millis>
+  <sequence>4127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:09:22</date>
+  <millis>1590739762803</millis>
+  <sequence>4128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:09:26</date>
+  <millis>1590739766554</millis>
+  <sequence>4129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:09:26</date>
+  <millis>1590739766554</millis>
+  <sequence>4130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:10:24</date>
+  <millis>1590739824902</millis>
+  <sequence>4157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1662</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:10:24</date>
+  <millis>1590739824902</millis>
+  <sequence>4158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1662</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T15:22:32</date>
+  <millis>1590740552851</millis>
+  <sequence>4255</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1828</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har109077502750174914\\requests\\ModalContext\\5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">b9d84797-746c-43f6-9217-6bab9bf1001e</property>
+</record>
+<record>
+  <date>2020-05-29T15:24:24</date>
+  <millis>1590740664047</millis>
+  <sequence>4256</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1846</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har4979264966945609980\\requests\\ModalContext\\6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">fc7d31a5-cbb8-4d82-9c5a-330fd6ca67ed</property>
+</record>
+<record>
+  <date>2020-05-29T15:26:20</date>
+  <millis>1590740780645</millis>
+  <sequence>4257</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1875</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har2193336956561601494\\requests\\ModalContext\\7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">a7221e89-df93-4948-985b-0ab8772bed5a</property>
+</record>
+<record>
+  <date>2020-05-29T15:26:54</date>
+  <millis>1590740814657</millis>
+  <sequence>4258</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1885</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har7919612326795547551\\requests\\ModalContext\\8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">131040dd-b3f6-49be-be33-a878c96229e8</property>
+</record>
+<record>
+  <date>2020-05-29T15:29:25</date>
+  <millis>1590740965903</millis>
+  <sequence>4259</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1893</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har6142463384146261056\\requests\\ModalContext\\9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">98b094de-857c-4e45-8e23-fd1f78942c13</property>
+</record>
+<record>
+  <date>2020-05-29T15:30:50</date>
+  <millis>1590741050199</millis>
+  <sequence>4260</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1900</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har4099736015417485336\\requests\\ModalContext\\10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f0c29ade-ad85-4b12-a1df-981249609506</property>
+</record>
+<record>
+  <date>2020-05-29T15:31:05</date>
+  <millis>1590741065300</millis>
+  <sequence>4261</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1908</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har149155311366765166\\requests\\ModalContext\\11.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">ea478245-40d6-4685-ab92-9836d62e9f32</property>
+</record>
+<record>
+  <date>2020-05-29T15:31:26</date>
+  <millis>1590741086504</millis>
+  <sequence>4262</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1912</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har3621363210097996303\\requests\\ModalContext\\12.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">7c4d1070-5d4f-4d6c-b150-c8863adfcd00</property>
+</record>
+<record>
+  <date>2020-05-29T15:33:49</date>
+  <millis>1590741229625</millis>
+  <sequence>4263</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1922</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har1086798146180188388\\requests\\ModalContext\\13.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">44bdbe36-b0b6-4f8a-bba0-fe8f2f1cb0eb</property>
+</record>
+<record>
+  <date>2020-05-29T15:34:08</date>
+  <millis>1590741248910</millis>
+  <sequence>4264</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1930</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har1529502925302051308\\requests\\ModalContext\\14.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">0d475a3f-3110-417e-bf84-53528d7b88d0</property>
+</record>
+<record>
+  <date>2020-05-29T15:34:57</date>
+  <millis>1590741297869</millis>
+  <sequence>4265</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1941</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har5567823087235541486\\requests\\ModalContext\\15.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4787931a-1f66-4d67-b129-ac6194d5413d</property>
+</record>
+<record>
+  <date>2020-05-29T15:35:14</date>
+  <millis>1590741314008</millis>
+  <sequence>4266</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1945</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har4612517509672505234\\requests\\ModalContext\\16.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">506cfdf0-fd4f-4905-b40c-90bb164fe6ed</property>
+</record>
+<record>
+  <date>2020-05-29T15:35:38</date>
+  <millis>1590741338591</millis>
+  <sequence>4267</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1952</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har2956271524752212629\\requests\\ModalContext\\17.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">a444fac5-11f6-446a-86dc-165e2f0df8c1</property>
+</record>
+<record>
+  <date>2020-05-29T15:45:28</date>
+  <millis>1590741928899</millis>
+  <sequence>4268</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1959</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har6281636665302708355\\requests\\ModalContext\\18.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">0ee5b71d-691c-4d6f-8df7-241696597d2e</property>
+</record>
+<record>
+  <date>2020-05-29T15:47:50</date>
+  <millis>1590742070984</millis>
+  <sequence>4269</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1967</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har7590914135986690284\\requests\\ModalContext\\19.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">51ef0a15-e098-4e3e-b2da-410626163acc</property>
+</record>
+<record>
+  <date>2020-05-29T15:48:06</date>
+  <millis>1590742086090</millis>
+  <sequence>4270</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1974</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har5350960587384239121\\requests\\ModalContext\\20.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">a6b5fee6-93b8-4763-bfb0-0b1a08df5826</property>
+</record>
+<record>
+  <date>2020-05-29T15:48:20</date>
+  <millis>1590742100132</millis>
+  <sequence>4271</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1978</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har4817820109968903480\\requests\\ModalContext\\21.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">c8230609-b362-4656-8153-07a0e8a9e463</property>
+</record>
+<record>
+  <date>2020-05-29T15:48:34</date>
+  <millis>1590742114452</millis>
+  <sequence>4272</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1982</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har2634464394347743798\\requests\\ModalContext\\22.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">70c3c85a-6dd7-40f5-a258-a5f7a1dbfb1c</property>
+</record>
+<record>
+  <date>2020-05-29T15:49:00</date>
+  <millis>1590742140415</millis>
+  <sequence>4273</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1987</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har2671627279033447816\\requests\\ModalContext\\23.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">3d7601dc-2c2b-436b-ad85-7e14e5e253a7</property>
+</record>
+<record>
+  <date>2020-05-29T15:49:50</date>
+  <millis>1590742190887</millis>
+  <sequence>4274</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1998</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har3457042201940168914\\requests\\ModalContext\\24.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">b14ff92a-a550-447b-990a-a79ead64a749</property>
+</record>
+<record>
+  <date>2020-05-29T16:01:25</date>
+  <millis>1590742885936</millis>
+  <sequence>4275</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2084</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har3524292782842952229\\requests\\ModalContext\\25.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">abc90f5d-e93a-4f73-a8ba-5fcdfcab51a4</property>
+</record>
+<record>
+  <date>2020-05-29T16:02:12</date>
+  <millis>1590742932965</millis>
+  <sequence>4276</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2093</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har4845881075640758955\\requests\\ModalContext\\26.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">56d79151-6f6a-4d0d-b56b-b4e2a1dd20e8</property>
+</record>
+<record>
+  <date>2020-05-29T16:02:28</date>
+  <millis>1590742948167</millis>
+  <sequence>4277</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2101</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har5408220063802620642\\requests\\ModalContext\\27.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">0cf3f31c-f200-4fb8-90d2-ca991f655553</property>
+</record>
+<record>
+  <date>2020-05-29T16:02:46</date>
+  <millis>1590742966388</millis>
+  <sequence>4278</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2108</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har3701060117939849718\\requests\\ModalContext\\28.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">25796ba5-5b82-42c2-8779-81bb273cfab4</property>
+</record>
+<record>
+  <date>2020-05-29T16:05:03</date>
+  <millis>1590743103574</millis>
+  <sequence>4279</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2164</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har1798294291603544905\\requests\\ModalContext\\29.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">8cc6c450-934b-4058-8e1e-b08279316327</property>
+</record>
+<record>
+  <date>2020-05-29T16:08:36</date>
+  <millis>1590743316657</millis>
+  <sequence>4280</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/User sign up&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:08:36</date>
+  <millis>1590743316663</millis>
+  <sequence>4281</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:08:40</date>
+  <millis>1590743320646</millis>
+  <sequence>4282</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/User sign up&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:08:40</date>
+  <millis>1590743320649</millis>
+  <sequence>4283</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:08:43</date>
+  <millis>1590743323520</millis>
+  <sequence>4284</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/User sign up&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:08:43</date>
+  <millis>1590743323522</millis>
+  <sequence>4285</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:10:58</date>
+  <millis>1590743458795</millis>
+  <sequence>4286</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2271</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har7479065448697162238\\requests\\ModalContext\\30.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">7f4cab8e-669f-4888-a688-d066e8c74666</property>
+</record>
+<record>
+  <date>2020-05-29T16:11:34</date>
+  <millis>1590743494650</millis>
+  <sequence>4287</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2279</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har1033970132537690441\\requests\\ModalContext\\31.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4aa7a2d7-519e-4317-8f9e-0e879a0d6fcc</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:34</date>
+  <millis>1590743614784</millis>
+  <sequence>4320</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1986</thread>
+  <message>Finding test data with id &amp;apos;Data Files/User sign up&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:34</date>
+  <millis>1590743614784</millis>
+  <sequence>4321</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1986</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:17:32</date>
+  <millis>1590743852366</millis>
+  <sequence>4481</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2469</thread>
+  <message>Finding test data with id &amp;apos;Data Files/User sign up&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:17:32</date>
+  <millis>1590743852366</millis>
+  <sequence>4482</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2469</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:20:31</date>
+  <millis>1590744031134</millis>
+  <sequence>4951</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2336</thread>
+  <message>Finding test data with id &amp;apos;Data Files/User sign up&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:20:31</date>
+  <millis>1590744031149</millis>
+  <sequence>4952</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2336</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:20:31</date>
+  <millis>1590744031149</millis>
+  <sequence>4953</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2336</thread>
+  <message>Finding test data with id &amp;apos;Data Files/UserLogin&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:20:31</date>
+  <millis>1590744031149</millis>
+  <sequence>4954</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2336</thread>
+  <message>Test data is internal data, reading internal data</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:24:59</date>
+  <millis>1590744299930</millis>
+  <sequence>5903</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2657</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har4132943864399101760\\requests\\ModalContext\\32.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">8ad9b362-25d4-4fdc-aea9-37a442bd8ca8</property>
+</record>
+<record>
+  <date>2020-05-29T16:34:21</date>
+  <millis>1590744861032</millis>
+  <sequence>5904</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2707</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har1227218391229282731\\requests\\ModalContext\\33.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">3584c918-fa4e-4ba6-9aa2-3ffc77c49cbb</property>
+</record>
+<record>
+  <date>2020-05-29T16:35:43</date>
+  <millis>1590744943677</millis>
+  <sequence>5905</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2715</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har7100419819818228437\\requests\\ModalContext\\34.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4dba0413-5f48-4aa8-87a1-fdf681a273d4</property>
+</record>
+<record>
+  <date>2020-05-29T16:36:22</date>
+  <millis>1590744982501</millis>
+  <sequence>5906</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2719</thread>
+  <message>HAR: C:\\Users\\Katamina\\AppData\\Local\\Temp\\har6895710705773947916\\requests\\ModalContext\\35.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e67519ae-2685-4ca4-a795-9d4d630f30eb</property>
+</record>
+</log>

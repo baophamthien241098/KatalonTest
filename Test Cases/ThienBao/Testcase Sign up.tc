@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Testcase Sign up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d38197c-06d1-4142-a18f-6d3e8ae08f01</testCaseGuid>
+   <variable>
+      <defaultValue>'sjdajsdj'</defaultValue>
+      <description></description>
+      <id>d34c333f-39bb-456e-b031-9be451a1cd22</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'sjdajsdj@gmail.com'</defaultValue>
+      <description></description>
+      <id>55dc9ed6-9b9e-45dc-b5a1-e8f957bde307</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123123'</defaultValue>
+      <description></description>
+      <id>9eb95cc9-f29f-4f56-8484-b93f7f2cf360</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>
