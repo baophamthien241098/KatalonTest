@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622045</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/User/Testsuite User</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Testsuite User</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/User/Testsuite User</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622058</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Katamina - DESKTOP-7F1C33B</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Katamina - DESKTOP-7F1C33B</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622060</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622061</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 169.254.57.70</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">169.254.57.70</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622062</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.5.2.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.5.2.1</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622453</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Sign up</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Sign up</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Sign up.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622488</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = thenbao</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622493</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>email = levan@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:42</date>
+  <millis>1590743622504</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pass = asdaa</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623004</millis>
+  <sequence>11</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Sign up FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&amp;apos;Object Repository/User/Register Api&amp;apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&amp;quot;UTF-8\&amp;quot;, \&amp;quot;application/json\&amp;quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1590743615112</class>
+      <method>run</method>
+      <line>37</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623013</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623137</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Sign up</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Sign up</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Sign up.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623153</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = LeVan</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623153</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>email = Heha</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623153</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pass = adaksd</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623403</millis>
+  <sequence>20</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Sign up FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&amp;apos;Object Repository/User/Register Api&amp;apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&amp;quot;UTF-8\&amp;quot;, \&amp;quot;application/json\&amp;quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1590743615112</class>
+      <method>run</method>
+      <line>37</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623409</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623538</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Sign up</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Sign up</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Sign up.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623561</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = thenbao</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623567</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>email = levan@gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623575</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pass = asdaa</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623880</millis>
+  <sequence>29</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Sign up FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&amp;apos;Object Repository/User/Register Api&amp;apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&amp;quot;UTF-8\&amp;quot;, \&amp;quot;application/json\&amp;quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1590743615112</class>
+      <method>run</method>
+      <line>37</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:43</date>
+  <millis>1590743623889</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624080</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Sign up</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Sign up</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Sign up.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624106</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624107</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>email = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624119</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pass = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624377</millis>
+  <sequence>38</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Sign up FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&amp;apos;Object Repository/User/Register Api&amp;apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&amp;quot;UTF-8\&amp;quot;, \&amp;quot;application/json\&amp;quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1590743615112</class>
+      <method>run</method>
+      <line>37</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624385</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624504</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Testcase Sign up</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Testcase Sign up</property>
+  <property name="source">E:\\KatalonTest\\Test Cases\\Testcase Sign up.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624512</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>username = thienbao2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624513</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>email = aksjdkal@akd.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624514</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>pass = levanlong</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624763</millis>
+  <sequence>47</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Testcase Sign up FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&amp;apos;Object Repository/User/Register Api&amp;apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&amp;quot;UTF-8\&amp;quot;, \&amp;quot;application/json\&amp;quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject 
+ @ line 18, column 15.
+   def request = (RequestObject)findTestObject('Object Repository/User/Register Api')
+                 ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder 
+ @ line 19, column 12.
+   def json = new JsonBuilder()
+              ^
+
+file:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent 
+ @ line 23, column 25.
+    request.setBodyContent(new HttpTextBodyContent(json.toString(),"UTF-8", "application/json"))	
+                           ^
+
+3 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1590743615112</class>
+      <method>run</method>
+      <line>37</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1590743615112.run(TempTestSuite1590743615112.groovy:37)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 18: unable to resolve class RequestObject \n @ line 18, column 15.\r\n   def request = (RequestObject)findTestObject(&apos;Object Repository/User/Register Api&apos;)\r\n                 ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 19: unable to resolve class JsonBuilder \n @ line 19, column 12.\r\n   def json = new JsonBuilder()\r\n              ^\r\n\r\nfile:/E:/KatalonTest/Scripts/Testcase%20Sign%20up/Script1590743009536.groovy: 23: unable to resolve class HttpTextBodyContent \n @ line 23, column 25.\r\n    request.setBodyContent(new HttpTextBodyContent(json.toString(),\&quot;UTF-8\&quot;, \&quot;application/json\&quot;))\t\r\n                           ^\r\n\r\n3 errors\r\n</property>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624772</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Testcase Sign up</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-05-29T16:13:44</date>
+  <millis>1590743624893</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/User/Testsuite User</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

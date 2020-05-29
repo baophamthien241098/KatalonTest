@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testsuite User" time="9.173" tests="3" failures="0" errors="0">
+   <testsuite name="Testsuite User" tests="3" failures="0" errors="0" time="9.173" timestamp="2020-05-29 11:30:11" hostname="Katamina - DESKTOP-7F1C33B" id="Test Suites/User/Testsuite User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\KatalonTest\\Reports\\20200529_112959\\User\\Testsuite User\\20200529_112959"/>
+         <property name="logFiles" value="E:\\KatalonTest\\Reports\\20200529_112959\\User\\Testsuite User\\20200529_112959\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Katamina - DESKTOP-7F1C33B"/>
+         <property name="hostAddress" value="169.254.57.70"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Testcase Login" time="4.268" classname="Test Cases/Testcase Login" status="PASSED">
+         <system-out><![CDATA[2020-05-29 11:30:12 - [TEST_CASE][PASSED] - Test Cases/Testcase Login: Test Cases/Testcase Login
+
+2020-05-29 11:30:12 - [TEST_STEP][PASSED] - a = username: null
+
+2020-05-29 11:30:12 - [TEST_STEP][PASSED] - b = password: null
+
+2020-05-29 11:30:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/LoginApi")): Send request successfully
+
+2020-05-29 11:30:16 - [MESSAGE][INFO] - HAR: E:\KatalonTest\Reports\20200529_112959\User\Testsuite User\20200529_112959\requests\main\0.har
+
+2020-05-29 11:30:16 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-29 11:30:16 - [TEST_STEP][PASSED] - print(a): null
+
+2020-05-29 11:30:16 - [TEST_STEP][PASSED] - print(b): null
+
+2020-05-29 11:30:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-05-29 11:30:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase Login" time="2.138" classname="Test Cases/Testcase Login" status="PASSED">
+         <system-out><![CDATA[2020-05-29 11:30:16 - [TEST_CASE][PASSED] - Test Cases/Testcase Login: Test Cases/Testcase Login
+
+2020-05-29 11:30:16 - [TEST_STEP][PASSED] - a = username: null
+
+2020-05-29 11:30:16 - [TEST_STEP][PASSED] - b = password: null
+
+2020-05-29 11:30:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/LoginApi")): Send request successfully
+
+2020-05-29 11:30:18 - [MESSAGE][INFO] - HAR: E:\KatalonTest\Reports\20200529_112959\User\Testsuite User\20200529_112959\requests\main\1.har
+
+2020-05-29 11:30:18 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-29 11:30:18 - [TEST_STEP][PASSED] - print(a): null
+
+2020-05-29 11:30:18 - [TEST_STEP][PASSED] - print(b): null
+
+2020-05-29 11:30:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-05-29 11:30:18 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase Login" time="1.864" classname="Test Cases/Testcase Login" status="PASSED">
+         <system-out><![CDATA[2020-05-29 11:30:18 - [TEST_CASE][PASSED] - Test Cases/Testcase Login: Test Cases/Testcase Login
+
+2020-05-29 11:30:18 - [TEST_STEP][PASSED] - a = username: null
+
+2020-05-29 11:30:18 - [TEST_STEP][PASSED] - b = password: null
+
+2020-05-29 11:30:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/LoginApi")): Send request successfully
+
+2020-05-29 11:30:20 - [MESSAGE][INFO] - HAR: E:\KatalonTest\Reports\20200529_112959\User\Testsuite User\20200529_112959\requests\main\2.har
+
+2020-05-29 11:30:20 - [MESSAGE][PASSED] - Send request successfully
+
+2020-05-29 11:30:20 - [TEST_STEP][PASSED] - print(a): null
+
+2020-05-29 11:30:20 - [TEST_STEP][PASSED] - print(b): null
+
+2020-05-29 11:30:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2020-05-29 11:30:20 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-29 11:30:11 - [TEST_SUITE][PASSED] - Testsuite User: Test Cases/Testcase Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

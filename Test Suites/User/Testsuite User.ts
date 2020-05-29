@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Testsuite User</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f9d254af-b009-4e6b-8275-9e9f908a9709</testSuiteGuid>
+   <testCaseLink>
+      <guid>29aa1731-1432-48d8-a51a-3170d095d3a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ThienBao/Testcase Sign up</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c81bc75d-b819-47f2-9a28-60b298d23d5a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User sign up</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>c81bc75d-b819-47f2-9a28-60b298d23d5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>d34c333f-39bb-456e-b031-9be451a1cd22</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c81bc75d-b819-47f2-9a28-60b298d23d5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>55dc9ed6-9b9e-45dc-b5a1-e8f957bde307</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c81bc75d-b819-47f2-9a28-60b298d23d5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9eb95cc9-f29f-4f56-8484-b93f7f2cf360</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55b2e9d3-f00e-4d73-aa98-b703376a3e37</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ThienBao/Testcase Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ebdde272-edf9-4ba7-9731-e08d9636ce13</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/UserLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ebdde272-edf9-4ba7-9731-e08d9636ce13</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>d1397d19-946f-4de2-876e-a9483dc9de18</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ebdde272-edf9-4ba7-9731-e08d9636ce13</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>702f6529-9a1b-4d08-912f-db57ed759011</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
