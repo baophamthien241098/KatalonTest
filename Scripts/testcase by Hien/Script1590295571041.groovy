@@ -14,4 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://hw02-mattermast-webapp-master.herokuapp.com/')
+
+WebUI.setText(findTestObject('null'), 'baophamthien241098@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('null'), 
+    'VJcwp4XFz68TnimayWqhOA==')
+
+WebUI.sendKeys(findTestObject('null'), Keys.chord(
+        Keys.ENTER))
 
