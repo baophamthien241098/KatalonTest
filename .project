@@ -60,7 +60,6 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
 			<id>1590724732428</id>
 			<name></name>
 			<type>10</type>
@@ -89,7 +88,6 @@
 		</filter>
 		<filter>
 			<id>1590745348988</id>
-=======
 			<id>1590482140578</id>
 			<name></name>
 			<type>10</type>
@@ -208,7 +206,6 @@
 		</filter>
 		<filter>
 			<id>1590725617120</id>
->>>>>>> branch 'master' of https://github.com/baophamthien241098/KatalonTest.git
 			<name></name>
 			<type>6</type>
 			<matcher>
